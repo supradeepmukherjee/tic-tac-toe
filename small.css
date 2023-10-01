@@ -1,0 +1,18 @@
+.gamecontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameinfo {
+    margin-top: 23px;
+}
+
+.gameinfo h1 {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
+}
